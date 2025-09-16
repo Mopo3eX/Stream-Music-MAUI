@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vladi\\source\\repos\\Stream Music MAUI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{85DFF7E8-13B5-4202-B44E-F6EDC93F9A00}|Stream Music MAUI\\Stream Music MAUI.csproj|c:\\users\\vladi\\source\\repos\\stream music maui\\stream music maui\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85DFF7E8-13B5-4202-B44E-F6EDC93F9A00}|Stream Music MAUI\\Stream Music MAUI.csproj|solutionrelative:stream music maui\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85DFF7E8-13B5-4202-B44E-F6EDC93F9A00}|Stream Music MAUI\\Stream Music MAUI.csproj|c:\\users\\vladi\\source\\repos\\stream music maui\\stream music maui\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{85DFF7E8-13B5-4202-B44E-F6EDC93F9A00}|Stream Music MAUI\\Stream Music MAUI.csproj|solutionrelative:stream music maui\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85DFF7E8-13B5-4202-B44E-F6EDC93F9A00}|Stream Music MAUI\\Stream Music MAUI.csproj|c:\\users\\vladi\\source\\repos\\stream music maui\\stream music maui\\log.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85DFF7E8-13B5-4202-B44E-F6EDC93F9A00}|Stream Music MAUI\\Stream Music MAUI.csproj|solutionrelative:stream music maui\\log.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85DFF7E8-13B5-4202-B44E-F6EDC93F9A00}|Stream Music MAUI\\Stream Music MAUI.csproj|c:\\users\\vladi\\source\\repos\\stream music maui\\stream music maui\\classes\\twitch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85DFF7E8-13B5-4202-B44E-F6EDC93F9A00}|Stream Music MAUI\\Stream Music MAUI.csproj|solutionrelative:stream music maui\\classes\\twitch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Log.cs",
+              "DocumentMoniker": "C:\\Users\\vladi\\source\\repos\\Stream Music MAUI\\Stream Music MAUI\\Log.cs",
+              "RelativeDocumentMoniker": "Stream Music MAUI\\Log.cs",
+              "ToolTip": "C:\\Users\\vladi\\source\\repos\\Stream Music MAUI\\Stream Music MAUI\\Log.cs",
+              "RelativeToolTip": "Stream Music MAUI\\Log.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAA9wC0AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T16:26:40.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Twitch.cs",
+              "DocumentMoniker": "C:\\Users\\vladi\\source\\repos\\Stream Music MAUI\\Stream Music MAUI\\Classes\\Twitch.cs",
+              "RelativeDocumentMoniker": "Stream Music MAUI\\Classes\\Twitch.cs",
+              "ToolTip": "C:\\Users\\vladi\\source\\repos\\Stream Music MAUI\\Stream Music MAUI\\Classes\\Twitch.cs",
+              "RelativeToolTip": "Stream Music MAUI\\Classes\\Twitch.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAgwEAAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T16:03:09.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\vladi\\source\\repos\\Stream Music MAUI\\Stream Music MAUI\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "Stream Music MAUI\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\vladi\\source\\repos\\Stream Music MAUI\\Stream Music MAUI\\MainPage.xaml.cs",
+              "RelativeToolTip": "Stream Music MAUI\\MainPage.xaml.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAiwHkAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T16:00:33.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\vladi\\source\\repos\\Stream Music MAUI\\Stream Music MAUI\\MainPage.xaml",
+              "RelativeDocumentMoniker": "Stream Music MAUI\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\vladi\\source\\repos\\Stream Music MAUI\\Stream Music MAUI\\MainPage.xaml",
+              "RelativeToolTip": "Stream Music MAUI\\MainPage.xaml",
+              "ViewState": "AgIAACwAAAAAAAAAAAAAwEMAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-09T16:00:32.567Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36127.28
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stream Music MAUI", "Stream Music MAUI\Stream Music MAUI.csproj", "{85DFF7E8-13B5-4202-B44E-F6EDC93F9A00}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Windows|Any CPU = Windows|Any CPU
+		Windows|x64 = Windows|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{85DFF7E8-13B5-4202-B44E-F6EDC93F9A00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85DFF7E8-13B5-4202-B44E-F6EDC93F9A00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85DFF7E8-13B5-4202-B44E-F6EDC93F9A00}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{85DFF7E8-13B5-4202-B44E-F6EDC93F9A00}.Debug|x64.ActiveCfg = Debug|x64
+		{85DFF7E8-13B5-4202-B44E-F6EDC93F9A00}.Debug|x64.Build.0 = Debug|x64
+		{85DFF7E8-13B5-4202-B44E-F6EDC93F9A00}.Debug|x64.Deploy.0 = Debug|x64
+		{85DFF7E8-13B5-4202-B44E-F6EDC93F9A00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85DFF7E8-13B5-4202-B44E-F6EDC93F9A00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85DFF7E8-13B5-4202-B44E-F6EDC93F9A00}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{85DFF7E8-13B5-4202-B44E-F6EDC93F9A00}.Release|x64.ActiveCfg = Release|x64
+		{85DFF7E8-13B5-4202-B44E-F6EDC93F9A00}.Release|x64.Build.0 = Release|x64
+		{85DFF7E8-13B5-4202-B44E-F6EDC93F9A00}.Release|x64.Deploy.0 = Release|x64
+		{85DFF7E8-13B5-4202-B44E-F6EDC93F9A00}.Windows|Any CPU.ActiveCfg = Windows|Any CPU
+		{85DFF7E8-13B5-4202-B44E-F6EDC93F9A00}.Windows|Any CPU.Build.0 = Windows|Any CPU
+		{85DFF7E8-13B5-4202-B44E-F6EDC93F9A00}.Windows|Any CPU.Deploy.0 = Windows|Any CPU
+		{85DFF7E8-13B5-4202-B44E-F6EDC93F9A00}.Windows|x64.ActiveCfg = Windows|x64
+		{85DFF7E8-13B5-4202-B44E-F6EDC93F9A00}.Windows|x64.Build.0 = Windows|x64
+		{85DFF7E8-13B5-4202-B44E-F6EDC93F9A00}.Windows|x64.Deploy.0 = Windows|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1FB41623-60DA-4981-8C7A-78BBD5FA531E}
+	EndGlobalSection
+EndGlobal

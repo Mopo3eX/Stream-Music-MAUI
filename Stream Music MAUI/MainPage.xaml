@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Stream_Music_MAUI.MainPage">
+
+    <VerticalStackLayout Spacing="10" Margin="15,0">
+
+        <HorizontalStackLayout Spacing="10">
+            <Button Text="OBS" WidthRequest="100" BackgroundColor="#FF0000" x:Name="btnOBSStart" Clicked="btnOBSStart_Clicked"/>
+            <Button Text="VTM" WidthRequest="100" BackgroundColor="#FF0000" x:Name="btnVTMStart" Clicked="btnVTMStart_Clicked"/>
+            <Button Text="Настройки" WidthRequest="100" Clicked="Settings_Clicked"/>
+            <VerticalStackLayout Margin="15,0">
+                <HorizontalStackLayout Spacing="10">
+                    <Label Text="OBSWebSocket" WidthRequest="175" />
+                    <!--<Rectangle BackgroundColor="#ff0000" WidthRequest="10" HeightRequest="10" x:Name="OBSWebSocketStatus"/>-->
+                    <Label Text="Выкл." x:Name="OBSWebSocketStatus"/>
+                </HorizontalStackLayout>
+                <HorizontalStackLayout Spacing="10">
+                    <Label Text="Twitch" WidthRequest="175" />
+                    <!--<Rectangle BackgroundColor="#ff0000" WidthRequest="10" HeightRequest="10" x:Name="OBSWebSocketStatus"/>-->
+                    <Label Text="Выкл." x:Name="TwitchStatus"/>
+                </HorizontalStackLayout>
+                <HorizontalStackLayout Spacing="10">
+                    <Label Text="Проигрывание музыки" WidthRequest="175" />
+                    <Label Text="Выкл." x:Name="PlayerStatus"/>
+                </HorizontalStackLayout>
+            </VerticalStackLayout>
+        </HorizontalStackLayout>
+        <HorizontalStackLayout Spacing="10">
+            <Label Text="Громкость" WidthRequest="250" />
+            <Slider Minimum="0" Maximum="1" WidthRequest="305" x:Name="VolumeSlider" ValueChanged="VolumeSlider_ValueChanged" DragCompleted="VolumeSlider_DragCompleted" />
+            <Label Text="0%" WidthRequest="45" x:Name="SelectedVolume" />
+        </HorizontalStackLayout>
+        <HorizontalStackLayout Spacing="10">
+            <Label Text="Возможность добавлять музыку чатерсам" WidthRequest="250" />
+            <Switch IsToggled="false" Toggled="Switch_Toggled" x:Name="AddOnChatToggle" />
+        </HorizontalStackLayout>
+        <Label Text="Управление проигрыванием" />
+        <HorizontalStackLayout Spacing="10">
+            <Label Text="Сейчас играет:" WidthRequest="150" />
+            <Label Text="Ничего" WidthRequest="450" x:Name="CurrentMusicName" />
+        </HorizontalStackLayout>
+        <HorizontalStackLayout Spacing="10">
+            <Label Text="Далее:" WidthRequest="150" />
+            <Label Text="Ничего" WidthRequest="450" x:Name="NextMusicName" />
+        </HorizontalStackLayout>
+        <HorizontalStackLayout Spacing="10">
+            <Button Text="Включить" WidthRequest="150" x:Name="btnEnable" Clicked="btnEnable_Clicked"/>
+            <Button Text="Остановить" LineBreakMode="WordWrap" WidthRequest="150" IsEnabled="False" x:Name="btnDisable" Clicked="btnDisable_Clicked"/>
+            <Button Text="Пропустить" WidthRequest="150" IsEnabled="False" x:Name="btnSkip" Clicked="btnSkip_Clicked"/>
+            <Button Text="Очистить очередь" LineBreakMode="WordWrap" WidthRequest="150" IsEnabled="False" x:Name="btnClear" Clicked="btnClear_Clicked"/>
+        </HorizontalStackLayout>
+        <Label Text="Список воспроизведения" />
+        <HorizontalStackLayout Spacing="10">
+            <Picker Title="Список музыки" x:Name="PlayListPicker" WidthRequest="350" />
+            <VerticalStackLayout Spacing="10">
+                <Button Text="Удалить" WidthRequest="250" HeightRequest="70" x:Name="RemoveAddedMusic" Clicked="RemoveAddedMusic_Clicked"/>
+            </VerticalStackLayout>
+        </HorizontalStackLayout>
+        <HorizontalStackLayout Spacing="10">
+            <CollectionView HorizontalOptions="Start" x:Name="UsersListView" WidthRequest="250" HeightRequest="180" SelectionChanged="UsersListView_SelectionChanged" SelectionMode="Single"></CollectionView>
+            <ScrollView WidthRequest="350" HeightRequest="180" x:Name="ChatScroll">
+                <Label x:Name="formattedLabel" WidthRequest="340" LineBreakMode="WordWrap" MaxLines="0" VerticalOptions="Start" />
+            </ScrollView>
+            
+        </HorizontalStackLayout>
+        <ScrollView WidthRequest="600" HeightRequest="180" x:Name="LogScroll">
+            <Label x:Name="LogLabel" WidthRequest="600" LineBreakMode="WordWrap" MaxLines="0" VerticalOptions="Start" />
+        </ScrollView>
+    </VerticalStackLayout>
+</ContentPage>
